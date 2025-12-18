@@ -17,3 +17,57 @@ export_presets.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# So I can work with my preferred setup
+addons/GDQuest_GDScript_formatter/
+addons/script-ide/
+.editorconfig
+icon.svg
+icon.svg.import
+iconSodaAudioManager.png.import
+project.godot
+repo image.png.import
+
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+*.DS_Store
+ 
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+ 
+ 
+# IDE
+*.idea
+*.iml
+ 
+# Generated files
+/web-app/WEB-INF
+build/
+*.[oa]
+*.pyc
+ 
+# Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
+ 
+# automatic backup files
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
+
+.vscode/
