@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalize text files
+* text=auto eol=lf
+
+# Ignore everything by default on export
+/** export-ignore
+
+# Export only the Godot addon
+/addons !export-ignore
+/addons/** !export-ignore
